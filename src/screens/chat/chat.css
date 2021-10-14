@@ -1,0 +1,117 @@
+@media only screen and (max-width:768px) {
+    .left-side {
+        display: none;
+    }
+}
+
+.left-side {
+    background-color: #f7f7ff;
+    min-height: 100vh;
+    border-radius: 0;
+}
+
+.right-side {
+    border-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+
+.chat_row {
+    padding: 0px !important;
+}
+
+.chat-group-container {
+    padding: 24px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.chat-head {
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.active-users-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recent-head {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 35px 0 35px;
+}
+
+.conversation {
+    border: none;
+    background-color: #f7f7ff;
+    height: 320px;
+    overflow-y: scroll;
+}
+
+.links.active {
+    background-color: rgb(238, 234, 226);
+    color: white;
+}
+
+.messeges {
+    margin-top: -5px;
+    height: calc(100% - 166px);
+    overflow-y: scroll;
+}
+
+.send-messeges {
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.current-chat {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.current-chat-status {
+    font-size: 15px;
+}
+
+.call-video-icons i {
+    cursor: pointer;
+    padding: 16px 20px 0 20px;
+    color: rgb(88, 89, 90);
+    font-size: 18px;
+}
+
+.current_user {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.current-status {
+    background-color: rgb(1, 172, 81);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border: 1px solid rgb(243, 241, 241);
+    border-radius: 50%;
+    top: 3px;
+    right: 1px;
+}
+
+.active-user {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}

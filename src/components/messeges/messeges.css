@@ -1,0 +1,14 @@
+.messege-container-1 {
+    padding: 30px 30px 0 30px;
+}
+
+.messege-container-2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px 0 30px;
+}
+
+p.messege {
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,26 @@
+img.users {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.active-users {
+    border-radius: 8px;
+    margin: 30px 10px 0 10px;
+    text-align: center;
+}
+
+.active-status {
+    background-color: rgb(1, 172, 81) !important;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border: 1px solid rgb(243, 241, 241);
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: -12px;
+}
+
+.user-name {
+    font-size: 15px;
+}

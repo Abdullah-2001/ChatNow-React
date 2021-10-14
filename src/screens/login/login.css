@@ -1,0 +1,35 @@
+.chat-logo {
+    padding-bottom: 30px;
+}
+
+.welcome-head {
+    color: rgb(100, 100, 100);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.now {
+    color: rgb(4, 168, 67);
+}
+
+.dot {
+    color: rgb(4, 168, 67);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px 0;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
